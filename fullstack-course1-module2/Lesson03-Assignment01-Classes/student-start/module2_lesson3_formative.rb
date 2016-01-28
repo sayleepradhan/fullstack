@@ -6,7 +6,7 @@ class Person
   @@people = []
 
   #have an `initialize` method to initialize each instance
-  def initialize(first_name,last_name)#should take 2 parameters for first_name and last_name
+  def initialize(first_name,last_name)  #should take 2 parameters for first_name and last_name
     #assign those parameters to instance variables
     #add the created instance (self) to people class variable
 	@first_name = first_name
